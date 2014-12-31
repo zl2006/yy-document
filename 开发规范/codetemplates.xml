@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="constructorcomment_context" deleted="false" description="Comment for created constructors" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment"> /** 
+ &lt;默认构造函数&gt;
+ */</template><template autoinsert="false" context="delegatecomment_context" deleted="false" description="Comment for delegate methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment"> /**
+ * ${tags}
+ */</template><template autoinsert="false" context="overridecomment_context" deleted="false" description="Comment for overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment"> /** {@inheritDoc} */</template><template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment"> /** &lt;一句话功能简述&gt;
+ * &lt;功能详细描述&gt;
+ * ${tags}
+ */</template><template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment"> /**
+ * &lt;一句话功能简述&gt;
+ * &lt;功能详细描述&gt;
+ * 
+ * @author  ${user}
+ * @version  [版本号, ${date}]
+ * @since  [产品/模块版本]
+ */</template><template autoinsert="false" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment"> /**
+ * 注释内容
+ */</template><template autoinsert="false" context="filecomment_context" deleted="false" description="Comment for created Java files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment"> /*
+ * 文 件 名:  ${file_name}
+ * 版    权:  YY Technologies Co., Ltd. Copyright 2012-2013,  All rights reserved
+ * 描    述:  &lt;描述&gt;
+ * 修 改 人:  ${user}
+ * 修改时间:  ${date}
+ * 修改内容:  &lt;修改内容&gt;
+ */</template><template autoinsert="false" context="settercomment_context" deleted="false" description="Comment for setter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment"> /**
+ * @param 对${bare_field_name}进行赋值
+ */</template><template autoinsert="false" context="gettercomment_context" deleted="false" description="Comment for getter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment"> /**
+ * @return 返回 ${bare_field_name}
+ */</template></templates>
